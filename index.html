@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Educate</title>
+</head>
+<body>
+    <nav class="navbar sky h-nav">
+        <ul class="navList v-class">
+            <div class="logo"><img src="mackbook.jpg" alt="logo" id="im"></div>
+            <li> <a href="#home">Home</a> </li>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#services">Services</a> </li>
+            <li> <a href="#contact">Contact Us</a> </li>
+            
+        </ul>
+        <div class="rightNav v-class">
+            <input type="text" name="Search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        
+    </nav>
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+        <p class="text-big">The Future Of Education is here</p>
+        <p class="small-text">In the world of 7Billion population now everyone want that they are educated</p>
+        <div class="buttons">
+            <button class="btn">Subscribe</button>
+            <button class="btn">Watch Video</button>
+        </div>
+    </div>
+        <div class="secondHalf">
+            <img src="mackbook.jpg">
+        </div>
+    </div>
+    
+        
+    </section>
+    <section class="secRight"></div>
+        <div class="paras">
+        <p class="text-big">The English Education Act was introduced in the year?</p>
+        <p class="smalled">The education Act was introduced in the year 1835. Lord William Bentinck, then Governor-General of the British East India Company, decided in 1835 to reallocate funds needed by the British Parliament to spend on education and literature in India, and the Act of the Council of India gave effect to his decision.
+            They had previously provided very minimal support for traditional Muslim and Hindu education, as well as the dissemination of literature in India's then-traditional languages of learning (Sanskrit and Persian); they were to assist establishments that taught a Western curriculum using English as the medium of instruction going forward.
+        </p>
+    </div>
+        
+        
+        <div class="tumbnail">
+            <img src="book1.jpg" alt="laptop" class="imgFluid">
+        </div>
+    </section>
+</section>
+<section class="secleft"></div>
+    <div class="paras">
+    <p class="text-big">What is Education?</p>
+    <p class="smalled">Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, habits, and personal development. Educational methods include teaching, training, storytelling, discussion and directed research. Education frequently takes place under the guidance of educators; however, learners can also educate themselves. Education can take place in formal or informal settings, and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called pedagogy.</p>
+</div>
+    
+    
+    <div class="tumbnail">
+        <img src="book2.jpg" alt="laptop" class="imgFluid">
+    </div>
+</section>
+</section>
+<section class="secRight"></div>
+    <div class="paras">
+    <p class="text-big">Education Technology</p>
+    <p class="smalled">Educational technology is an inclusive term for both the material tools, processes, and the theoretical foundations for supporting learning and teaching. Educational technology is not restricted to high technology but is anything that enhances classroom learning in the utilization of blended, face to face, or online learning. An educational technologist is someone who is trained in the field of educational technology. Educational technologists try to analydesign, develop, implement, and evaluate process and tools to enhance learning.While the term educational technologist is used primarin the United States, learning technologist is synonymous and used in the as well as Canada.</p>
+</div>
+    
+    
+    <div class="tumbnail">
+        <img src="book3.jpg" alt="laptop" class="imgFluid">
+    </div>
+</section>
+<hr>
+<section class="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form" >
+        <input type="text" name="name" id="name" placeholder="Enter your Name">
+        <input type="text" name="number" id="name" placeholder="Enter your Number">
+        <input type="email" name="email" id="name" placeholder="Enter your Email">
+        <textarea name="text" id="text"cols="30" rows="10" placeholder="Elaborate your concern"></textarea>
+        <button class="btn btn-dark">Submit</button>
+    </div>
+</section>
+<footer class="sky">
+    <p class="text-footer">Copyright &copy;2022-All rights reserved</p>
+</footer>
+<script>
+    burger = document.querySelector('.burger')
+navbar = document.querySelector('.navbar')
+navList = document.querySelector('.navList')
+rightNav = document.querySelector('.rightNav')
+
+
+
+burger.addEventListener('click',()=>{
+    rightNav.classList.toggle('v-class');
+    navList.classList.toggle('v-class');
+    navbar.classList.toggle('h-nav');
+})
+
+
+
+</script>
+    
+    
+    
+</body>
+</html>
